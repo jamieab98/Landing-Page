@@ -2,9 +2,16 @@ body{
     background-color:rgb(16, 172, 94);
 }
 
+a{
+    text-decoration: none;
+}
+
+.top{
+    border: 1px solid black;
+}
+
 .header{
-    border: 1px black solid;
-    margin: 0px 100px;
+    margin: 10px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,12 +24,42 @@ body{
 }
 
 .header-links a{
-    text-decoration: none;
     color: white;
 }
 
 .header-links{
-    border: 1px black solid;
     display: flex;
     gap: 40px;
+}
+
+.content{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 150px;
+}
+
+.text{
+    border: 1px solid black;
+    color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bold{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.button a{
+    color: white;
+}
+
+button{
+    background-color:rgb(255, 0, 0);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
 }
