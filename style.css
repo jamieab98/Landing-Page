@@ -35,14 +35,12 @@ body{
 }
 
 .content{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     padding: 100px 150px;
 }
 
 .text{
-    border: 1px solid black;
     color: white;
     width: 400px;
     display: flex;
@@ -97,4 +95,71 @@ button{
     flex-shrink: 1;
     flex-basis: auto;
     gap: 10px;
+}
+
+.quote{
+    border: 1px black solid;
+    background-color: grey;
+    display: flex;
+    padding: 150px 350px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.painfultruth{
+    font-size: 30px;
+}
+
+.author{
+    font-weight: 900;
+    text-align: right;
+}
+
+.action{
+    background-color:rgb(231, 223, 194);
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign{
+    background-color:rgb(158, 51, 51);
+    display: flex;
+    flex: 1;
+    margin: 0px 125px; 
+    padding: 30px 60px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+.click{
+    color: white;
+}
+
+.join{
+    display: flex;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px 20px;
+    color: white;
+}
+
+.welcome{
+    background-color: black;
+}
+
+.welcome a{
+    color: white;
 }
